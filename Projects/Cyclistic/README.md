@@ -25,7 +25,7 @@ License: https://divvybikes.com/data-license-agreement
 ### Data cleaning
 I cleaned every monthly file separately as they were too big to combine into one dataset without Excel crashing. Due to the high amount of cleaning needed and the limitations of SQL when it comes to manipulating certain data, all of this was done in Excel.
 
-Example of the datafile:
+Example of the data file:
 
 Data cleaning and manipulation:
 -	Removing entries with a negative ride time
