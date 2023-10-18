@@ -19,5 +19,6 @@ Brand Ambassador @ Heineken
 - 2017 Formula One World Championship: Bahrain GP, Monaco GP, Canada GP, Abu Dhabi GP
 - Rock in Rio 2017, Brazil
 - Dubai Rugby 7's 2017, UAE
+- Heineken Experience
 
 
