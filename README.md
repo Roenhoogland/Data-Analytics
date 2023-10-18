@@ -16,9 +16,6 @@ Cluster Researcher: Covid-19 @ GGD Hollands Midden
 - Creating fitting responses based on data
 
 Brand Ambassador @ Heineken
-- Heineken Events Supervisor
-- Tour Guide
-Projects
 - F1 2017: Bahrain GP, Monaco GP, Canada GP, Abu Dhabi GP
 - Rock in Rio 2017, Brazil
 - Dubai Rugby 7's, UAE
