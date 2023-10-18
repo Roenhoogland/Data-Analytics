@@ -12,10 +12,10 @@ Analyze how annual members and casual riders use Cyclistic bikes differently
 ### Data Sources
 
 Data has been provided by Motivate International Inc., an existing bike-sharing company based in the United States. 
-For this project, monthly data from 7-2022 until 06-2023 is used.
+For this project, monthly data from 7-2022 until 06-2023 was used.
 
-Data source: https://divvy-tripdata.s3.amazonaws.com/index.html
-License: https://divvybikes.com/data-license-agreement
+- Data source: https://divvy-tripdata.s3.amazonaws.com/index.html
+- License: https://divvybikes.com/data-license-agreement
 
 ### Tools
 - Excel: data cleaning and manipulation
