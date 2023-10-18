@@ -21,4 +21,5 @@ Brand Ambassador @ Heineken
 - Dubai Rugby 7's 2017, UAE
 - Heineken Experience
 
+### Data Analytics Projects
 
