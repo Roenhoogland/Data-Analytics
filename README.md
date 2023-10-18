@@ -13,7 +13,7 @@ Cluster Research Coordinator: Covid-19 @ GGD Hollands Midden
 Cluster Researcher: Covid-19 @ GGD Hollands Midden
 - Conducting qualitative and quantitative research
 - Analyzing qualitative and quantitative data
-- Creating fitting responses based on data
+- Creating fitting data-driven responses
 
 Brand Ambassador @ Heineken
 - F1 2017: Bahrain GP, Monaco GP, Canada GP, Abu Dhabi GP
