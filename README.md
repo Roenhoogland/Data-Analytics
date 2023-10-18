@@ -9,7 +9,8 @@ Business Administration Propedeutic year
 Cluster Research Coordinator: Covid-19 @ GGD Hollands Midden
 - Organize and coordinate research on clustering in organizations in the region
 - Coordinating the creation of prevention plans and response to outbreaks
-
+- Daily responsibility over a team of 15-20 researchers
+  
 Cluster Researcher: Covid-19 @ GGD Hollands Midden
 - Conducting qualitative and quantitative research
 - Analyzing qualitative and quantitative data
