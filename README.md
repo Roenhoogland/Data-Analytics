@@ -1,9 +1,9 @@
 # Data Analyst
 
 ### Education
-Applied Cognitive Psychology MSc,
-Psychology BA,
-Business Administration Propedeutic year
+- Applied Cognitive Psychology, MSc - Leiden University
+- Psychology, BSc - VU University Amsterdam
+- Business Administration, Propedeutic year - Amsterdam University of Applied Sciences
 
 ### Work Experience
 Cluster Research Coordinator: Covid-19 @ GGD Hollands Midden
