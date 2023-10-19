@@ -7,7 +7,7 @@ Albeit a fictive company, the analysis is conducted with real data.
 - [Business Task](#business-task)
 - [Data Sources](#data-sources)
 - [Tools](#tools)
-- [Data Cleaning and Preparation](#data-cleaning-and-preparation)
+- [Data Cleaning and Transformation](#data-cleaning-and-transformation)
 - [Data Analysis](#data-analysis)
 - [Results](#results)
 - [Recommendations](#recommendations)
@@ -26,15 +26,15 @@ Analyze how annual members and casual riders use Cyclistic bikes differently
 Data has been provided by Motivate International Inc., an existing bike-sharing company based in the United States. 
 For this project, monthly data from 7-2022 until 06-2023 was used.
 
-- Data source: https://divvy-tripdata.s3.amazonaws.com/index.html
-- License: https://divvybikes.com/data-license-agreement
+- [Data source](https://divvy-tripdata.s3.amazonaws.com/index.html)
+- [License](https://divvybikes.com/data-license-agreement)
 
 ### Tools
-- Excel: data cleaning and manipulation
+- Excel: data cleaning and transformation
 - SQL (BigQuery): data analysis
 - Tableau: visualization
 
-### Data Cleaning and Preparation
+### Data Cleaning and Transformation
 I cleaned every monthly file separately as they were too big to combine into one dataset without Excel crashing. Due to the high amount of cleaning needed and the limitations of SQL when it comes to manipulating certain data, all of this was done in Excel.
 
 Example of the data file:
