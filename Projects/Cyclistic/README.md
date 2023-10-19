@@ -7,7 +7,7 @@ Albeit a fictive company, the analysis is conducted with real data.
 - [Business Task](#business-task)
 - [Data Sources](#data-sources)
 - [Tools](#tools)
-- [Data Cleaning](#data-cleaning/preparation)
+- [Data Cleaning and Preparation](#data-cleaning-and-preparation)
 
 
 
@@ -30,7 +30,7 @@ For this project, monthly data from 7-2022 until 06-2023 was used.
 - SQL (BigQuery): data analysis
 - Tableau: visualization
 
-### Data cleaning/Preparation
+### Data Cleaning and Preparation
 I cleaned every monthly file separately as they were too big to combine into one dataset without Excel crashing. Due to the high amount of cleaning needed and the limitations of SQL when it comes to manipulating certain data, all of this was done in Excel.
 
 Example of the data file:
