@@ -1,7 +1,15 @@
 # Cyclistic Analysis
 This is the capstone project part of the Google Data Analytics Certificate.
 Albeit a fictive company, the analysis is conducted with real data.
+
 ## Table of Contents
+- [Project Overview](#project-overview)
+- [Business Task](#business-task)
+- [Data Sources](#data-sources)
+- [Tools](#tools)
+- [Data Cleaning](#data-cleaning/preparation)
+
+
 
 ### Project Overview
 You are a junior data analyst working in the marketing analyst team at Cyclistic, a bike-share company in Chicago. The director of marketing believes the company’s future success depends on maximizing the number of annual memberships. Therefore, your team wants to understand how casual riders and annual members use Cyclistic bikes differently. From these insights, your team will design a new marketing strategy to convert casual riders into annual members. But first, Cyclistic executives must approve your recommendations, so they must be backed up with compelling data insights and professional data visualizations.
@@ -22,12 +30,12 @@ For this project, monthly data from 7-2022 until 06-2023 was used.
 - SQL (BigQuery): data analysis
 - Tableau: visualization
 
-### Data cleaning
+### Data cleaning/Preparation
 I cleaned every monthly file separately as they were too big to combine into one dataset without Excel crashing. Due to the high amount of cleaning needed and the limitations of SQL when it comes to manipulating certain data, all of this was done in Excel.
 
 Example of the data file:
 
-Data cleaning and manipulation:
+Data cleaning and transformation:
 -	Removing entries with a negative ride time
 -	Monthly datasets with slightly different names for the same station have been aligned accordingly
 -	Fill in missing coordinates data using VLOOKUP
