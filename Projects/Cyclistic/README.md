@@ -52,7 +52,7 @@ Data cleaning and transformation:
 4. Day of the week
 5. Month
 
-The monthly datasets were merged into 1 table in SQL
+The monthly datasets were merged into one table in SQL
 
 ### Data Analysis
 Click [here](https://console.cloud.google.com/bigquery?sq=1018093740843:8d0da4f3d6f54be487951c496dfb8134) for all code used.
