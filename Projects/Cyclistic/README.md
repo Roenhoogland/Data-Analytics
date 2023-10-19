@@ -38,7 +38,7 @@ For this project, monthly data from 7-2022 until 06-2023 was used.
 I cleaned every monthly file separately as they were too big to combine into one dataset without Excel crashing. Due to the high amount of cleaning needed and the limitations of SQL when it comes to manipulating certain data, all of this was done in Excel.
 
 Example of the data file:
-![alt text](Projects/Cyclistic/Images/file_example.png)
+![alt text](https://github.com/Roenhoogland/Data-Analytics/Projects/Cyclistic/Images/file_example.png)
 
 Data cleaning and transformation:
 -	Removing entries with a negative ride time
