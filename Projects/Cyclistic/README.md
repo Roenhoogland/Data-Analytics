@@ -1,5 +1,5 @@
 # Cyclistic Analysis
-This is the capstone project part of the Google Data Analytics Certificate.
+Capstone project. Part of the Google Data Analytics Certificate.
 Albeit a fictive company, the analysis is conducted with real data.
 
 ## Table of Contents
