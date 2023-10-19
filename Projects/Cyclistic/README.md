@@ -40,7 +40,8 @@ I cleaned every monthly file separately as they were too big to combine into one
 Example of the data file:
 
 
-![file_example](https://github.com/Roenhoogland/Data-Analytics/assets/145770693/a0987e71-234e-4e52-b4cc-1dee8d31d14b)
+![Schermafbeelding 2023-10-12 123908](https://github.com/Roenhoogland/Data-Analytics/assets/145770693/3ed0d45b-bd38-448b-a9e9-de252b9bb5a0)
+
 
 Data cleaning and transformation:
 -	Removing entries with a negative ride time
@@ -84,7 +85,17 @@ ORDER BY
 The year dataset was too large to be exported. Queries of analyses were run individually. The results of the analyses were saved and exported. These exports were used in Tableau to create visualizations
 
 Note: the coordinate data in SQL is missing a decimal point. This was fixed in the exported results doc before creating the geographical visualizations in Tableau.
+
 ### Results
+- Casual members ride the most on the weekends, while members ride more often during weekdays.
+- Casual riders more often use the electric bike (57,85%) compared to members (52%). Additionally, casual riders (can) use the docked bike (6,31%) in contrast to members.
+-	Casual riders most often ride in July (400k rides). In January, casual riders only use the bikes about 10% of that (40k rides). Members peak in August (427k rides), while in their lowest month, they still account for 31,9% (136k rides). As such we can conclude that members use the bike more consistently. Of course, that is somewhat expected as members pay for an annual subscription.
+-	The average ride length of casual riders (25 min) is around twice as long as members (12 min). In addition. Casual riders tend to ride longer around (Monday and Friday) and during weekends compared to weekdays (Tuesday till Thursday). For members, this increase is only observed on weekends and is minimal - almost a 15% increase on Saturday compared to the weekday average.
+-	In absolute terms, the seasonal increase in ride length is more for casual riders. However, in relative terms, the increase is similar (around 25%).
+-	Compared to casual riders, members show a spike in bike usage around 7-8 a.m. This is observed in both June and December.
+-	In general, members account for more rides than casual riders, so it’s expected to see more member rides on the geographical map. However, they seem to concentrate more around the Chicago Loop, Greektown, Magnificent Mile areas of downtown Chicago, such as Ogilvie Transportation Center and Chicago Union Station. In addition, members concentrate around universities, colleges, and medical centers (e.g. University of Chicago, University of Illinois at Chicago, Illinois Medical District).
+-	As expected, in most areas casual riders account for fewer rides than members. However, along the lake shore and around certain tourist areas/places casual riders consistently dominated.  Streeter Dr & Grand Ave accounts for the start of 52920 casual rides. The station that accounts for the most starts of members is Kingsbury St. & Kinzie St. with ‘only’ 25293 rides. Other examples around Millenium Park, Lincoln Park Zoo, and Shedd Aquarium
+
 
 ### Recommendations
 - Casual riders and members are different to a certain extent, so we can't expect all casuals to become members. If we do want them to become members, we have to cater more to them. Casuals tend to go to tourist places and ride in the summer season. One recommendation would be, to introduce a seasonal pass for casuals to ride all summer long. Additionally, conduct a survey among casual riders to understand their needs better.
@@ -94,4 +105,4 @@ Note: the coordinate data in SQL is missing a decimal point. This was fixed in t
 ### Limitations
 - Due to privacy issues, demographic information is not included in the analysis. However, conducting another analysis that includes demographic information could be of value. For example, it would allow us to see where the customers live, and how many rides they have taken (regardless of them being a casual rider or a member).
 - About 30% of the rides could not be included in the geographical data analysis because station names were missing. As such, no exact can be given regarding the absolute amount of rides made from a certain station.
-- The analysis was conducted with limited background knowledge. For example, no information was provided on why casual riders could used docked bikes while members could not. 
+- The analysis was conducted with limited background knowledge. For example, no information was provided on why casual riders could use docked bikes while members could not. 
