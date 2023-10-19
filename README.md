@@ -23,4 +23,4 @@ Brand Ambassador @ Heineken
 - Heineken Experience
 
 ### Data Analytics Projects
-- [Cyclistic](Projects/Cyclistic): Google Data Analytics Certificate Project
+- [Cyclistic](Projects/Cyclistic): Google Data Analytics Certificate Capstone Project
