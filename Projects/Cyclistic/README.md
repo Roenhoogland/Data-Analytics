@@ -8,6 +8,10 @@ Albeit a fictive company, the analysis is conducted with real data.
 - [Data Sources](#data-sources)
 - [Tools](#tools)
 - [Data Cleaning and Preparation](#data-cleaning-and-preparation)
+- [Data Analysis](#data-analysis)
+- [Results](#results)
+- [Recommendations](#recommendations)
+- [Limitations](#limitations)
 
 
 
@@ -87,4 +91,4 @@ Note: the coordinate data in SQL is missing a decimal point. This was fixed in t
 ### Limitations
 - Due to privacy issues, demographic information is not included in the analysis. However, conducting another analysis that includes demographic information could be of value. For example, it would allow us to see where the customers live, and how many rides they have taken (regardless of them being a casual rider or a member).
 - About 30% of the rides could not be included in the geographical data analysis because station names were missing. As such, no exact can be given regarding the absolute amount of rides made from a certain station.
-- 
+- The analysis was conducted with limited background knowledge. For example, no information was provided on why casual riders could used docked bikes while members could not. 
