@@ -122,6 +122,8 @@ Note: the coordinate data in SQL is missing a decimal point. This was fixed in t
 -	In general, members account for more rides than casual riders, so it’s expected to see more member rides on the geographical map. However, they seem to concentrate more around the Chicago Loop, Greektown, Magnificent Mile areas of downtown Chicago, such as Ogilvie Transportation Center and Chicago Union Station. In addition, members concentrate around universities, colleges, and medical centers (e.g. University of Chicago, University of Illinois at Chicago, Illinois Medical District).
 ![SS_M (1)](https://github.com/Roenhoogland/Data-Analytics/assets/145770693/c28d4ace-7c34-4120-8357-aaea0f9b333e)
 ![SS_C (1)](https://github.com/Roenhoogland/Data-Analytics/assets/145770693/47b264b5-f025-4d49-a283-eb96b256a264)
+Casual riders concentrate relatively more along the lake shore and parks.
+
 ![UofC conversion possibilities](https://github.com/Roenhoogland/Data-Analytics/assets/145770693/96e6313b-e65f-4fb0-9ce5-7e50556e841a)
 
 
