@@ -23,7 +23,7 @@ Develop a dashboard offering insights into key performance indicators (KPIs), mo
 Additionally, analyze and visualize the impact of rainfall on order patterns.
 
 ### Data Sources
-- Sales data was taken from the Sitedish POS API. The data ran from 2023-01-01 to 2023-10-31 and did not include Mondays
+- Sales data was taken from the Sitedish POS API. The data ran from 2023-01-01 to 2023-10-31 and did not include Mondays. Data not publicly available.
 - Weather(rain) data for the same time period was taken from https://www.meteoblue.com/nl/weer/historyclimate/weatherarchive/hoorn_nederland_2753638
 
 ### Tools
