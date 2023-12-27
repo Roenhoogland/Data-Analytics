@@ -51,8 +51,7 @@ Exported the Query results and created a '0' dummy variable for each time block 
 
 ### Results
 - Casual members ride the most on the weekends, while members ride more often during weekdays.
-![Day (m_c)](https://github.com/Roenhoogland/Data-Analytics/assets/145770693/b95c515d-ab6b-4c75-9023-a6457b899b3b)
-
+![Slice_Dash](https://github.com/Roenhoogland/Data-Analytics/assets/145770693/b95c515d-ab6b-4c75-9023-a6457b899b3b)](https://github.com/Roenhoogland/Portfolio/blob/main/assets/images/Slice_Dash.png)
 
 
 - Casual riders more often use the electric bike (57,85%) compared to members (52%). Additionally, casual riders (can) use the docked bike (6,31%) in contrast to members.
