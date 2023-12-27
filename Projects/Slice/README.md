@@ -28,7 +28,7 @@ Additionally, analyze and visualize the impact of rainfall on order patterns.
 
 ### Tools
 - Excel: data cleaning and transformation
-- SQL (BigQuery): data analysis
+- SQL (BigQuery): data analysis and transformation
 - Tableau: visualization
 
 ### Data Cleaning and Transformation
