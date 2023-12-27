@@ -50,7 +50,6 @@ Exported the Query results and created a '0' dummy variable for each time block 
 
 
 ### Results
-- Casual members ride the most on the weekends, while members ride more often during weekdays.
 ![Slice_Dash](https://github.com/Roenhoogland/Portfolio/blob/main/assets/images/Slice_Dash.png)
 
 
