@@ -45,7 +45,7 @@ Additionally, analyze and visualize the impact of rainfall on order patterns.
 - Join ON date to link the sale table to the rain table
 - Query to SELECT COUNT orders and GROUP BY time block, date, weekday, and month
 
-Exported the Query results and created a '0' dummy variable for every time for each date that had no sales
+Exported the Query results and created a '0' dummy variable for each time block that had no sales.
 
 
 
