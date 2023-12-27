@@ -1,4 +1,4 @@
-# Slice Project
+# Slice
 
 
 
