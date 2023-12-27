@@ -23,7 +23,7 @@ Develop a dashboard offering insights into key performance indicators (KPIs), mo
 Additionally, analyze and visualize the impact of rainfall on order patterns.
 
 ### Data Sources
-- Sales data was taken from the Sitedish POS API. The data ran from 2023-01-01 to 2023-10-31 and did not include mondays
+- Sales data was taken from the Sitedish POS API. The data ran from 2023-01-01 to 2023-10-31 and did not include Mondays
 - Weather(rain) data for the same time period was taken from https://www.meteoblue.com/nl/weer/historyclimate/weatherarchive/hoorn_nederland_2753638
 
 ### Tools
@@ -32,56 +32,18 @@ Additionally, analyze and visualize the impact of rainfall on order patterns.
 - Tableau: visualization
 
 ### Data Cleaning and Transformation
-I cleaned every monthly file separately as they were too big to combine into one dataset without Excel crashing. Due to the high amount of cleaning needed and the limitations of SQL when it comes to manipulating certain data, all of this was done in Excel.
+- Checked for and removed duplicates
+- Removed sales data entries that missed significant information.
+-	Split time from the data and rounded down to the nearest 30 minutes, forming half-hour time blocks.
+- Created new column for date, month and weekday (1=sun - 7=sat)
+- Trimmed the weather dataset to include only information aligning with business hours.
+- In a new column (Rain), created a dichotomous variable that read 'Yes' (If rain on said date is > 0.01mm) or 'No'(If else). So, in cases where rain occurred during business hours, the corresponding entry for that date in indicated 'yes.'
 
-Example of the data file:
-
-
-![Schermafbeelding 2023-10-12 123908](https://github.com/Roenhoogland/Data-Analytics/assets/145770693/3ed0d45b-bd38-448b-a9e9-de252b9bb5a0)
-
-
-Data cleaning and transformation:
--	Removing entries with a negative ride time
--	Monthly datasets with slightly different names for the same station have been aligned accordingly
--	Fill in missing coordinates data using VLOOKUP
--	Entries with start or end station names could not be filled using VLOOKUP as different stations sometimes had the same coordinates
--	Entries with the same station name but slightly different coordinates have been unified under one coordinate set
--	Creation of new columns:
-1. Ride length (min): ride length has to be calculated in minutes in order for SQL to run queries with it
-2. Start time
-3. Start hour of ride (so rides could be grouped according to start time)
-4. Day of the week
-5. Month
-
-The monthly datasets were merged into one table in SQL
 
 ### Data Analysis
-Click [here](https://console.cloud.google.com/bigquery?sq=1018093740843:8d0da4f3d6f54be487951c496dfb8134) for all code used.
 
-Example of code:
-```sql
-SELECT
-  AVG(ride_length) AS ride_time,
-  month,
-  day_of_week,
-  rideable_type,
-  member_casual
-FROM
-  `deft-apparatus-394509.Cyclistic.cyclistic_year`
-GROUP BY
-  month,
-  day_of_week,
-  rideable_type,
-  member_casual
-ORDER BY
-  month,
-  day_of_week,
-  rideable_type,
-  member_casual; 
-```
-The year dataset was too large to be exported. Queries of analyses were run individually. The results of the analyses were saved and exported. These exports were used in Tableau to create visualizations
 
-Note: the coordinate data in SQL is missing a decimal point. This was fixed in the exported results doc before creating the geographical visualizations in Tableau.
+
 
 ### Results
 - Casual members ride the most on the weekends, while members ride more often during weekdays.
