@@ -50,6 +50,8 @@ Exported the Query results and created a '0' dummy variable for each time block 
 
 
 ### Results
+- The most orders are on Sunday and Friday (24% and 22% respectively), followed by Saturday and Thursday (18% and 15% respectively), trailed by Wednesday and Tuesday (11% and 10% respectively).
+-  
 ![Slice_Dash](https://github.com/Roenhoogland/Portfolio/blob/main/assets/images/Slice_Dash.png)
 
 
@@ -99,7 +101,5 @@ Casual riders concentrate relatively more along the lake shore and parks.
 - There are still a lot of casual rides made in business areas, around universities, hospitals, etc. I assume (without demographic data of the users) that a lot of the people who made these rides will come to the location more often. Thus, they could be stimulated to use the bike more. Promote cycling at universities and medical centers for example. Perhaps make deals with the institutions. Based on the casual ride numbers around some institutions this has potential.
 
 ### Limitations
-- Due to privacy issues, demographic information is not included in the analysis. However, conducting another analysis that includes demographic information could be of value. For example, it would allow us to see where the customers live, and how many rides they have taken (regardless of them being a casual rider or a member).
-- About 30% of the rides could not be included in the geographical data analysis because station names were missing. As such, no exact can be given regarding the absolute amount of rides made from a certain station.
-- The analysis was conducted with limited background knowledge. For example, no information was provided on why casual riders could use docked bikes while members could not. 
-
+- The ordering patterns in connection with rainfall data may exhibit bias, given that precipitation is more frequent in spring, autumn, and winter, particularly in the latter when days are shorter. Consequently, it seems plausible that customers place orders earlier during these seasons compared to the longer days of summer. To address this, it would be prudent to examine the monthly distribution of orders.
+- In the current analysis, rain is dichotomously categorized as 'Yes' or 'No' based on whether it occurred during business hours on a given day. However, if the rainfall is minimal and occurs only towards the end of business hours, it is less likely to impact sales at the beginning of the business day. 
