@@ -37,7 +37,7 @@ Additionally, analyze and visualize the impact of rainfall on order patterns.
 -	Split time from the data and rounded down to the nearest 30 minutes, forming half-hour time blocks.
 - Created new column for date, month and weekday (1=sun - 7=sat)
 - Trimmed the weather dataset to include only information aligning with business hours.
-- In a new column (Rain), created a dichotomous variable that read 'Yes' (If rain on said date is > 0.01mm) or 'No'(If else). So, in cases where rain occurred during business hours, the corresponding entry for that date in indicated 'yes.'
+- In a new column (Rain), created a dichotomous variable that read 'Yes' (If rain on said date is > 0.01mm) or 'No' (If else). So, in cases where rain occurred during business hours, the corresponding entry for that date in indicated 'yes.'
 
 
 ### Data Analysis (SQL)
