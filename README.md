@@ -24,3 +24,4 @@ Brand Ambassador @ Heineken
 
 ### Data Analytics Projects
 - [Cyclistic](Projects/Cyclistic): Google Data Analytics Certificate Capstone Project
+- [Slice](Projects/Slice): Small business sales data analysis
