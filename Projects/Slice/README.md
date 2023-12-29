@@ -60,6 +60,7 @@ Excel
 ![slicedashboard](https://github.com/Roenhoogland/Portfolio/blob/main/assets/images/slicedashboard.png)
 https://public.tableau.com/views/SliceDash/Dashboard1?:language=en-GB&:display_count=n&:origin=viz_share_link
 
+Detailed graphs illustrating the impact of rain for each month were shared with the business. however, they are not included here to prevent the page from being cluttered with ten similar graphs. The overall trend of orders clustering in the early hours of business persisted.
 
 ### Limitations
 - The ordering patterns in connection with rainfall data may exhibit bias, given that precipitation is more frequent in spring, autumn, and winter, particularly when days are shorter. Consequently, it seems plausible that customers place orders earlier during these seasons compared to the longer days of summer. To address this, examining the monthly distribution of orders would be prudent.
