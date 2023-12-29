@@ -34,26 +34,31 @@ Additionally, analyze and visualize the impact of rainfall on order patterns.
 - Checked for and removed duplicates
 - Removed sales data entries that missed significant information.
 -	Split time from the data and rounded down to the nearest 30 minutes, forming half-hour time blocks.
-- Created new column for date, month and weekday (1=sun - 7=sat)
+- Created new column for date, month, and weekday (1=sun - 7=sat)
 - Trimmed the weather dataset to include only information aligning with business hours.
-- In a new column (Rain), created a dichotomous variable that read 'Yes' (If rain on said date is > 0.01mm) or 'No' (If else). So, in cases where rain occurred during business hours, the corresponding entry for that date in indicated 'yes.'
+- In a new column (Rain), create a dichotomous variable that reads 'Yes' (If rain on said date is > 0.01mm) or 'No' (If else). So, in cases where rain occurred during business hours, the corresponding entry for that date indicated 'yes.'
 
 
 ### Data Analysis (SQL)
+- Uploaded Weather and Sales tables
 - Exploratory analyses
-- Join ON date to link the sale table to the rain table
-- Query to SELECT COUNT orders and GROUP BY time block, date, weekday, and month
+- Join ON date Query to SELECT COUNT orders and GROUP BY time block, date, weekday, month, and rain from the tables
 
-Exported the Query results and created a '0' dummy variable for each time block that had no sales.
+Exported the Query results and created a '0' dummy variable for each time block with no sales.
 
 
 
 ### Results
-- The most orders are on Sunday and Friday (24% and 22% respectively), followed by Saturday and Thursday (18% and 15% respectively), trailed by Wednesday and Tuesday (11% and 10% respectively).
--  
+- Gross income between Jan was Oct was roughly €127.000, from 3969 orders.
+- Gross income was the highest in May (€16.084) and the lowest in August (€10.022)
+- Most orders came on Sundays and Fridays (24% and 22% respectively), followed by Saturdays and Thursdays (18% and 15% respectively), trailed by Wednesdays and Tuesdays (11% and 10% respectively).
+- On average, most orders came in between 17:30-18:00 for both rainy and dry days (3,34 and 3,18 respectively) and the least between 16:00-16:30, with an average of 0,85 on rainy days and 0,67 on dry days.
+- Average orders on a rainy day were 15,7 which is 7,5% more than on dry days (14,6).
+- On rainy days, there is a slight uptick in orders during the early business hours, particularly within the 16:30-17:00 and 17:00-17:30 time frames, with an average increase of around 0.35 orders in both blocks.
+
 ![Slice_Dash](https://github.com/Roenhoogland/Portfolio/blob/main/assets/images/Slice_Dash.png)
 
 
 ### Limitations
-- The ordering patterns in connection with rainfall data may exhibit bias, given that precipitation is more frequent in spring, autumn, and winter, particularly in the latter when days are shorter. Consequently, it seems plausible that customers place orders earlier during these seasons compared to the longer days of summer. To address this, it would be prudent to examine the monthly distribution of orders.
+- The ordering patterns in connection with rainfall data may exhibit bias, given that precipitation is more frequent in spring, autumn, and winter, particularly when days are shorter. Consequently, it seems plausible that customers place orders earlier during these seasons compared to the longer days of summer. To address this, examining the monthly distribution of orders would be prudent.
 - In the current analysis, rain is dichotomously categorized as 'Yes' or 'No' based on whether it occurred during business hours on a given day. However, if the rainfall is minimal and occurs only towards the end of business hours, it is less likely to impact sales at the beginning of the business day. 
