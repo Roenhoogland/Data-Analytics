@@ -40,10 +40,12 @@ Additionally, analyze and visualize the impact of rainfall on order patterns.
 
 
 ### Data Analysis
+SQL
 - Uploaded Weather and Sales tables
 - Exploratory analyses
 - Join ON date Query to SELECT COUNT orders and GROUP BY time block, date, weekday, month, and rain from the tables
 
+Excel
 Exported the Query results and created a '0' dummy variable for each time block with no sales.
 
 
