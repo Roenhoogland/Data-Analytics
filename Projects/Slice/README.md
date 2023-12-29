@@ -55,7 +55,6 @@ Exported the Query results and created a '0' dummy variable for each time block 
 - On average, most orders came in between 17:30-18:00 for both rainy and dry days (3,34 and 3,18 respectively) and the least between 16:00-16:30, with an average of 0,85 on rainy days and 0,67 on dry days.
 - Average orders on a rainy day were 15,7 which is 7,5% more than on dry days (14,6).
 - On rainy days, there is a slight uptick in orders during the early business hours, particularly within the 16:30-17:00 and 17:00-17:30 time frames, with an average increase of around 0.35 orders in both blocks.
-
 ![Slice_Dash](https://github.com/Roenhoogland/Portfolio/blob/main/assets/images/Slice_Dash.png)
 
 
