@@ -56,6 +56,7 @@ Exported the Query results and created a '0' dummy variable for each time block 
 - On days with rain, the average number of orders was 15.7, representing a 7.5% increase compared to dry days with an average of 14.6 orders.
 - On rainy days, there is a slight uptick in orders during the early business hours, particularly within the 16:30-17:00 and 17:00-17:30 time frames, with an average increase of around 0.35 orders in both blocks.
 ![Slice_Dash](https://github.com/Roenhoogland/Portfolio/blob/main/assets/images/Slice_Dash.png)
+https://public.tableau.com/views/SliceDash/Dashboard1?:language=en-GB&:display_count=n&:origin=viz_share_link
 
 
 ### Limitations
