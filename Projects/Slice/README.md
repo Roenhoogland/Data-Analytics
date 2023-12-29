@@ -39,7 +39,7 @@ Additionally, analyze and visualize the impact of rainfall on order patterns.
 - In a new column (Rain), create a dichotomous variable that reads 'Yes' (If rain on said date is > 0.01mm) or 'No' (If else). So, in cases where rain occurred during business hours, the corresponding entry for that date indicated 'yes.'
 
 
-### Data Analysis (SQL)
+### Data Analysis
 - Uploaded Weather and Sales tables
 - Exploratory analyses
 - Join ON date Query to SELECT COUNT orders and GROUP BY time block, date, weekday, month, and rain from the tables
