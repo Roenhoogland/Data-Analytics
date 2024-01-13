@@ -59,6 +59,7 @@ Excel
 - On rainy days, there is a slight uptick in orders during the early business hours, particularly within the 16:30-17:00 and 17:00-17:30 time frames, with an average increase of around 0.35 orders.
 
 Detailed graphs illustrating the impact of rain for each month were shared with the business owner. however, they are not included here to prevent the page from being cluttered with ten similar graphs. The overall trend of orders clustering in the early hours of business persisted.
+
 ![slicedashboards](/Projects/Slice/Images/slicedashboards.png)
 Click [here](https://public.tableau.com/views/SliceDash/Dashboard1?:language=en-GB&:display_count=n&:origin=viz_share_link) for a link to the interactive dashboard
 - The majority of orders, totaling 91.74%, were for delivery, with Takeaway constituting the remaining 8.26%.
