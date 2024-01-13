@@ -59,12 +59,12 @@ Excel
 - On rainy days, there is a slight uptick in orders during the early business hours, particularly within the 16:30-17:00 and 17:00-17:30 time frames, with an average increase of around 0.35 orders.
 
 Detailed graphs illustrating the impact of rain for each month were shared with the business owner. however, they are not included here to prevent the page from being cluttered with ten similar graphs. The overall trend of orders clustering in the early hours of business persisted.
-![slicedashboard](https://github.com/Roenhoogland/Portfolio/blob/main/assets/images/slicedashboard.png)
+![slicedashboard](https://github.com/Roenhoogland/Portfolio/blob/main/Projects/Slice/Images/slicedashboard(1).png)
 https://public.tableau.com/views/SliceDash/Dashboard1?:language=en-GB&:display_count=n&:origin=viz_share_link
 - The majority of orders, totaling 91.74%, were for delivery, with Takeaway constituting the remaining 8.26%.
-![sliceordertype](https://github.com/Roenhoogland/Portfolio/blob/main/assets/images/sliceordertype.png)
+![sliceordertype](https://github.com/Roenhoogland/Portfolio/blob/main/Projects/Slice/Images/sliceordertype.png)
 - Most orders were made through the company's official website, comprising 71.96% of the total. The Thuisbezorgd food order platform accounted for 23.53% of orders. A small portion, 3.4%, were placed in person at the physical location, while UberEats accounted for 1.11% of the orders.
-![sliceoplatform](https://github.com/Roenhoogland/Portfolio/blob/main/assets/images/sliceplatform.png)
+![sliceoplatform](https://github.com/Roenhoogland/Portfolio/blob/main/Projects/Slice/Images/sliceplatform.png)
 
 
 
