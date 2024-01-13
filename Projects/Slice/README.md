@@ -60,6 +60,7 @@ Excel
 
 Detailed graphs illustrating the impact of rain for each month were shared with the business owner. however, they are not included here to prevent the page from being cluttered with ten similar graphs. The overall trend of orders clustering in the early hours of business persisted.
 ![slicedashboards](Projects/Slice/Images/slicedashboards.png)
+
 https://public.tableau.com/views/SliceDash/Dashboard1?:language=en-GB&:display_count=n&:origin=viz_share_link
 - The majority of orders, totaling 91.74%, were for delivery, with Takeaway constituting the remaining 8.26%.
 ![sliceordertype](https://github.com/Roenhoogland/Portfolio/blob/main/Projects/Slice/Images/sliceordertype.png)
