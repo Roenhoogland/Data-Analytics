@@ -124,7 +124,7 @@ Note: the coordinate data in SQL is missing a decimal point. This was fixed in t
 - Casual riders concentrate relatively more along the lake shore and parks.
 ![SS_C (1)](https://github.com/Roenhoogland/Data-Analytics/assets/145770693/47b264b5-f025-4d49-a283-eb96b256a264)
 
-
+- Although, around universities the rides are dominated by members, there's still a considerable amount of casual rider traffic
 ![UofC conversion possibilities](https://github.com/Roenhoogland/Data-Analytics/assets/145770693/96e6313b-e65f-4fb0-9ce5-7e50556e841a)
 
 
@@ -136,9 +136,9 @@ Note: the coordinate data in SQL is missing a decimal point. This was fixed in t
 ### Recommendations
 - Casual riders and members are different to a certain extent, so we can't expect all casuals to become members. If we do want them to become members, we have to cater more to them. Casuals tend to go to tourist places and ride in the summer season. One recommendation would be, to introduce a seasonal pass for casuals to ride all summer long. Additionally, conduct a survey among casual riders to understand their needs better.
   
-- There are still a lot of casual rides made in business areas, around universities, hospitals, etc. I assume (without demographic data of the users) that a lot of the people who made these rides will come to the location more often. Thus, they could be stimulated to use the bike more. Promote cycling at universities and medical centers for example. Perhaps make deals with the institutions. Based on the casual ride numbers around some institutions this has potential.
+- There are still a lot of casual rides made in business areas, around universities, hospitals, etc. I assume (without demographic data of the users) that a lot of the people who made these rides will come to the location more often, especially universities. Thus, they could be stimulated to use the bike more. Promote cycling at universities and medical centers for example. Perhaps make deals with the institutions. Based on the casual ride numbers around some institutions this has potential.
 
 ### Limitations
 - Due to privacy issues, demographic information is not included in the analysis. However, conducting another analysis that includes demographic information could be of value. For example, it would allow us to see where the customers live, and how many rides they have taken (regardless of them being a casual rider or a member).
-- About 30% of the rides could not be included in the geographical data analysis because station names were missing. As such, no exact can be given regarding the absolute amount of rides made from a certain station.
+- About 30% of the rides could not be included in the geographical data analysis because station names and coordinates were missing. As such, no exact can be given regarding the absolute amount of rides made from a certain station.
 - The analysis was conducted with limited background knowledge. For example, no information was provided on why casual riders could use docked bikes while members could not. 
