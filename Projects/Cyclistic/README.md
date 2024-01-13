@@ -50,7 +50,7 @@ Data cleaning and transformation:
 -	Entries with start or end station names could not be filled using VLOOKUP as different stations sometimes had the same coordinates
 -	Entries with the same station name but slightly different coordinates have been unified under one coordinate set
 -	Creation of new columns:
-1. Ride length (min): ride length has to be calculated in minutes in order for SQL to run queries with it
+1. Ride length (min): ride length has to be calculated in minutes for SQL to run queries with it
 2. Start time
 3. Start hour of ride (so rides could be grouped according to start time)
 4. Day of the week
