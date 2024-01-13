@@ -62,7 +62,7 @@ Detailed graphs illustrating the impact of rain for each month were shared with 
 ![slicedashboards](/Projects/Slice/Images/slicedashboards.png)
 https://public.tableau.com/views/SliceDash/Dashboard1?:language=en-GB&:display_count=n&:origin=viz_share_link
 - The majority of orders, totaling 91.74%, were for delivery, with Takeaway constituting the remaining 8.26%.
-![sliceordertype]
+![sliceordertype](/Projects/Slice/Images/sliceordertype.png)
 - Most orders were made through the company's official website, comprising 71.96% of the total. The Thuisbezorgd food order platform accounted for 23.53% of orders. A small portion, 3.4%, were placed in person at the physical location, while UberEats accounted for 1.11% of the orders.
 ![sliceoplatform](https://github.com/Roenhoogland/Portfolio/blob/main/Projects/Slice/Images/sliceplatform.png)
 
