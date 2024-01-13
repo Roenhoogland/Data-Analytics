@@ -27,4 +27,4 @@ Brand Ambassador @ Heineken
 Analyzed differences in bike ride behaviour between casual riders and members with a subscription in order to understand the differences and increase membership conversion rate. Used Excel, SQL and Tableau
   
 - [Slice](Projects/Slice): Sales Data Analysis, Small Business
-Analyzed the order distribution during business hours of a small takeaway business and included the effect of rain on such distribution in order to re-evaluate the current business hours
+Analyzed the order distribution during business hours of a small takeaway business and included the effect of rain on such distribution in order to re-evaluate the current business hours. Used Excel, SQL and Tableau
