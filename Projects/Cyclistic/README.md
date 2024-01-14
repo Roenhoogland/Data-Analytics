@@ -97,11 +97,11 @@ Note: the coordinate data in SQL is missing a decimal point. This was fixed in t
 
 
 
--	Casual riders most often ride in July (400k rides). In January, casual riders only use the bikes about 10% of that (40k rides). Members peak in August (427k rides), while in their lowest month, they still account for 31,9% (136k rides). As such we can conclude that members use the bike more consistently. Of course, that is somewhat expected as members pay for an annual subscription.
+-	Casual riders most often ride in July (400k rides). In January, casual riders used the bikes about 10% of that (40k rides). Members peak in August (427k rides), while in their lowest month, they still account for 31,9% (136k rides). As such we can conclude that members use the bike more consistently. Of course, that is somewhat expected as members pay for an annual subscription.
 ![Month (m_c)](https://github.com/Roenhoogland/Data-Analytics/assets/145770693/62f60741-dda5-4067-bc5d-6e6a92731fa4)
 
 
--	The average ride length of casual riders (25 min) is around twice as long as members (12 min). In addition. Casual riders tend to ride longer around (Monday and Friday) and during weekends compared to weekdays (Tuesday till Thursday). For members, this increase is only observed on weekends and is minimal - almost a 15% increase on Saturday compared to the weekday average.
+-	The average ride length of casual riders (25 min) is around twice as long as members (12 min). In addition. casual riders typically ride for more extended periods on Mondays and Fridays, as well as during weekends, in contrast to weekdays from Tuesday to Thursday. For members, this increase is only observed on weekends and is minimal - almost a 15% increase on Saturday compared to the weekday average.
 ![Ride time per day](https://github.com/Roenhoogland/Data-Analytics/assets/145770693/41b91136-b278-44a9-ad6c-7fda69ba2295)
 
 
