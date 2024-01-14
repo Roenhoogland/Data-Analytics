@@ -101,7 +101,7 @@ Note: the coordinate data in SQL is missing a decimal point. This was fixed in t
 ![Month (m_c)](https://github.com/Roenhoogland/Data-Analytics/assets/145770693/62f60741-dda5-4067-bc5d-6e6a92731fa4)
 
 
--	The average ride length of casual riders (25 min) is around twice as long as members (12 min). In addition. casual riders typically ride for more extended periods on Mondays and Fridays, as well as during weekends, in contrast to weekdays from Tuesday to Thursday. For members, this increase is only observed on weekends and is minimal - almost a 15% increase on Saturday compared to the weekday average.
+-	The average ride length of casual riders (25 min) is around twice as long as members (12 min). In addition. casual riders typically ride for more extended periods around weekends seeing a 40% increase on Sunday (31 min) in contrast to weekdays from Tuesday (22 min) to Thursday. For members, this increase is only observed on weekends and is minimal - almost a 15% increase on Saturday compared to the weekday average.
 ![Ride time per day](https://github.com/Roenhoogland/Data-Analytics/assets/145770693/41b91136-b278-44a9-ad6c-7fda69ba2295)
 
 
@@ -124,7 +124,7 @@ Note: the coordinate data in SQL is missing a decimal point. This was fixed in t
 - Casual riders concentrate relatively more along the lake shore and parks.
 ![SS_C (1)](https://github.com/Roenhoogland/Data-Analytics/assets/145770693/47b264b5-f025-4d49-a283-eb96b256a264)
 
-- Although, around universities the rides are dominated by members, there's still a considerable amount of casual rider traffic
+- While rides around universities are predominantly led by members, there is also a significant amount of casual rider activity. As such, this could be identified as an opportunity.
 ![UofC conversion possibilities](https://github.com/Roenhoogland/Data-Analytics/assets/145770693/96e6313b-e65f-4fb0-9ce5-7e50556e841a)
 
 
