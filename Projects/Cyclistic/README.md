@@ -60,7 +60,7 @@ The monthly datasets were merged into one table in SQL
 
 ### Data Analysis
 SQL: Click [here](https://console.cloud.google.com/bigquery?sq=1018093740843:8d0da4f3d6f54be487951c496dfb8134) for all code used.
-
+Click [here](Projects/Cyclistic/SQL/Cyclistic.sql)
 Example of code:
 ```sql
 SELECT
