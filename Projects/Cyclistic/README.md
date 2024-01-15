@@ -102,6 +102,26 @@ GROUP BY
 ORDER BY
   location_count DESC
 ```
+
+```
+SELECT
+  TIME( EXTRACT(hour
+    FROM
+      AVG(start_time - '0:0:0')), EXTRACT(minute
+    FROM
+      AVG(start_time - '0:0:0')), EXTRACT(second
+    FROM
+      AVG(start_time - '0:0:0')) ) AS avg_start_time,
+  member_casual
+FROM
+  `deft-apparatus-394509.Cyclistic.cyclistic_year`
+GROUP BY
+  member_casual
+ORDER BY
+  member_casual
+```
+
+
 The year dataset was too large to be exported. Queries of analyses were run individually. The results of the analyses were saved and exported. These exports were used in Tableau to create visualizations
 
 Note: the coordinate data in SQL is missing a decimal point. This was fixed in the exported results doc before creating the geographical visualizations in Tableau.
