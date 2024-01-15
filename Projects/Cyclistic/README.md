@@ -82,6 +82,26 @@ ORDER BY
   rideable_type,
   member_casual; 
 ```
+
+```sql
+SELECT
+  COUNT(ride_id) AS location_count,
+  start_station_name,
+  member_casual,
+  start_lat,
+  start_lng,
+FROM
+  `deft-apparatus-394509.Cyclistic.cyclistic_year`
+WHERE
+  start_station_name IS NOT NULL
+GROUP BY
+  start_station_name,
+  start_lat,
+  start_lng,
+  member_casual
+ORDER BY
+  location_count DESC
+```
 The year dataset was too large to be exported. Queries of analyses were run individually. The results of the analyses were saved and exported. These exports were used in Tableau to create visualizations
 
 Note: the coordinate data in SQL is missing a decimal point. This was fixed in the exported results doc before creating the geographical visualizations in Tableau.
