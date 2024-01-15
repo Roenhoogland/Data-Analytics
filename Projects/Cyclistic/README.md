@@ -105,13 +105,13 @@ ORDER BY
 
 ```sql
 SELECT
-  TIME( EXTRACT(hour
+  TIME(EXTRACT(hour
     FROM
       AVG(start_time - '0:0:0')), EXTRACT(minute
     FROM
       AVG(start_time - '0:0:0')), EXTRACT(second
     FROM
-      AVG(start_time - '0:0:0')) ) AS avg_start_time,
+      AVG(start_time - '0:0:0'))) AS avg_start_time,
   member_casual
 FROM
   `deft-apparatus-394509.Cyclistic.cyclistic_year`
