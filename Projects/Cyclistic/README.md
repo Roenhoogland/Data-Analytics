@@ -103,7 +103,7 @@ ORDER BY
   location_count DESC
 ```
 
-```
+```sql
 SELECT
   TIME( EXTRACT(hour
     FROM
