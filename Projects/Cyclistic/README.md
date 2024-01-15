@@ -59,7 +59,8 @@ Data cleaning and transformation:
 The monthly datasets were merged into one table in SQL
 
 ### Data Analysis
-Click [here](https://github.com/Roenhoogland/Portfolio/blob/main/Projects/Cyclistic/SQL/Cyclistic.sql)
+Click [here](https://github.com/Roenhoogland/Portfolio/blob/main/Projects/Cyclistic/SQL/Cyclistic.sql) for all code used
+
 Example of code:
 ```sql
 SELECT
